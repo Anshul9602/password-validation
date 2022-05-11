@@ -7,6 +7,19 @@
     <title>password validation</title>
 </head>
 <body>
-    
+    <script>
+        function ansu(){
+            var a = document.getElementById("fpass").value;
+            if(a.length <6){
+                document.getElementById("fpass").innerHTML="passwprd is short"
+            }
+        }
+    </script>
+    <h1 style="text-align: center;">PASSWORD VALIDATION</h1>
+    <form onsubmit="return ansu()">
+    Newpassword :<input type="password" id="fpass" value=""><br>
+    Repassword :<input type="password" id="rpass" value=""><br>
+    Submit:<input type="submit" id="Submit" value="">
+    </form>
 </body>
 </html>
