@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,30 @@
     <title>password validation</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <script>
-        function ansu(){
+        function ansu() {
             var a = document.getElementById("fpass").value;
-            if(a.length <6){
-                document.getElementById("fpass").innerHTML="passwprd is short"
+            if (a.length < 6) {
+                document.getElementById("fpass").innerHTML = "passwprd is short"
             }
         }
     </script>
     <h1 style="text-align: center;">PASSWORD VALIDATION</h1>
     <form onsubmit="return ansu()">
-    Newpassword :<input type="password" id="fpass" value=""><br>
-    Repassword :<input type="password" id="rpass" value=""><br>
-    Submit:<input type="submit" id="Submit" value="">
+        <ul>
+            <li1>
+                Newpassword :<input type="password" id="fpass" value=""><br>
+                Repassword :<input type="password" id="rpass" value=""><br>
+            </li1>
+            <li2>
+                Submit:<input type="submit" id="Submit" value="">
+
+            </li2>
+        </ul>
+
     </form>
 </body>
+
 </html>
