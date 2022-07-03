@@ -11,3 +11,9 @@ body {
     color: blueviolet;
 
 }
+.ui{
+    
+    margin: 10px;
+ padding: 10px 30px; 
+ align-items: center;  
+}
